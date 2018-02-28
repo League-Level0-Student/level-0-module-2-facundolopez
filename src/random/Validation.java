@@ -21,7 +21,8 @@ public class Validation {
 		// 3. Use each value of randomNumber to give the user a random compliment.
 
 		// 4. Repeat all the code above 10 times
-		
+		 Random randy = new Random();
+	        randomNumber =(randy.nextInt(10 - 0)+1) + 0;
 		// 5. Find someone to test out your program. They will like it :)
 	}
 }
