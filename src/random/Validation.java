@@ -19,6 +19,16 @@ public class Validation {
 		System.out.println(randomNumber);
 
 		// 3. Use each value of randomNumber to give the user a random compliment.
+		if (randomNumber ==1) 
+			System.out.print(" U cool");
+		else if(randomNumber == 2) 
+			System.out.print("my dude u right");
+	 else if (randomNumber == 3) 
+			System.out.print("u  mad thick");
+	 else if (randomNumber == 4) 
+			System.out.print("u nice");
+	 else if (randomNumber == 0) 
+			System.out.print("u thick af");
 
 		// 4. Repeat all the code above 10 times
 		 Random randy = new Random();

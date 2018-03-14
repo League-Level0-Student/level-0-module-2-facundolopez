@@ -18,8 +18,8 @@ public class SafeCracker {
 		 * Your mission: use the tryCode method to crack the safe by trying all possible
 		 * combinations
 		 */
-
-
+Random randGen = new Random();
+int jhon = randGen.nextInt(99+1)-1;
 	}
 
 	static void tryCode(int guess) {
